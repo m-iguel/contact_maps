@@ -1,0 +1,2 @@
+export var PLUGIN_VERSION = '3.37.1';
+export var PLUGIN_VERSION_DATE = new Date(typeof __MOLSTAR_DEBUG_TIMESTAMP__ !== 'undefined' ? __MOLSTAR_DEBUG_TIMESTAMP__ : 1700128260492);
