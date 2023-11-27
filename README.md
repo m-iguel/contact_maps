@@ -13,6 +13,13 @@ Molstar visualizers to render the Single Residue, Configurational and Mutational
 
 `git clone https://github.com/m-iguel/contact_maps.git`
 
+Optionally, you can remove the following files and repostitory, since we will be creating them afterwards:
+
+    * ./src/apps/playground/index.ts
+    * ./src/apps/playground/index.html
+    * ./webpack-config-common.js
+    * ./build/
+
 3. Run the script with the following arguments:
 
      * Structure data (FrustraEvoResults/Data/PDB_A.pdb)
