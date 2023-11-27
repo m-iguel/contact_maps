@@ -17,7 +17,7 @@ Optionally, you can remove the following files and repostitory, since we will be
    
      ./src/apps/playground/index.ts
      ./src/apps/playground/index.html
-     ./webpack-config-common.js
+     ./webpack.config.common.js
      ./build/
 
 
@@ -38,7 +38,7 @@ python3 parse_contact_maps.py FrustraEvo_2023715141047268466/Data/1AYI_A.pdb Fru
    
     * ./src/apps/playground/index.ts
     * ./src/apps/playground/index.html
-    * ./webpack-config-common.js
+    * ./webpack.config.common.js
   
 4. Navigate to the molstar/ directory and run the webpack
 
