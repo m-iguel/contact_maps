@@ -1,32 +1,45 @@
-# contact_maps
-Molstar visualizers to render configurational and mutational contact maps in a Webpack for FrustraEvo Server
+# Molstar visualizers for FrustraEvo Server
+
+Molstar visualizers to render the Single Residue, Configurational and Mutational contact maps in a Webpack for FrustraEvo Server.
 
 
-Requirements:
+### Requirements:
 
-Node Package Manager (manager for JavaScript software packages).
++ Node Package Manager (npm) (manager for JavaScript software packages).
 
-Instructions to run the webpack in a local server:
+### Instructions to run the webpack in a local server:
 
-1. Clone this repository in the same directory as your FrustraEvo results folder.
-2. Run the script with the following arguments:
+1. Clone this repository.
 
-     - Structure data (FrustraEvoResults/Data/PDB_A.pdb)
-     - IC Mutational file (FrustraEvoResults/OutputFiles/IC_Mut_XXXXXX
-     - IC Configurational file (FrustraEvoResults/OutputFiles/IC_Conf_XXXXXX
-     - Structure Visualization (FrustraEvoResults/Data/PDB_A.done/VisualizationScrips/PDB_A.pdb
-       
+`git clone https://github.com/m-iguel/contact_maps.git`
+
+3. Run the script with the following arguments:
+
+     * Structure data (FrustraEvoResults/Data/PDB_A.pdb)
+     * IC Single Residue file (FrustraEvoResults/OutputFiles/IC_SingleRes_XXXXXX
+     * IC Mutational file (FrustraEvoResults/OutputFiles/IC_Mut_XXXXXX
+     * IC Configurational file (FrustraEvoResults/OutputFiles/IC_Conf_XXXXXX
+     * Structure Visualization (FrustraEvoResults/Data/PDB_A.done/VisualizationScrips/PDB_A.pdb
+
+From your root directory:
+```
+python3 parse_contact_maps.py FrustraEvo_2023715141047268466/Data/1AYI_A.pdb FrustraEvo_2023715141047268466/OutPutFiles/IC_SingleRes_2023715141047268466 FrustraEvo_2023715141047268466/OutPutFiles/IC_Mut_2023715141047268466 FrustraEvo_2023715141047268466/OutPutFiles/IC_Conf_2023715141047268466 FrustraEvo_2023715141047268466/Data/1AYI_A.done/VisualizationScrips/1AYI_A.pdb
+```
+
 3. The following files will be created
    
-     ./src/apps/playground/index.ts
-     ./src/apps/playground/index.html
-     ./webpack-config-common.js
+    * ./src/apps/playground/index.ts
+    * ./src/apps/playground/index.html
+    * ./webpack-config-common.js
 
-4. npm run watch-playground
-5. The build/ directory is created.
-6. Open a local server:
+4. Run the webpack
+   
+   `npm run watch-playground`
 
-     python3 -m http.server
+6. The build/ directory is created.
+7. Open a local server:
 
-7. Navigate to build/playground/index.html
-8. The visualizer is now loaded and rendering two contact maps: Mutational (left) and Configurational (right).
+     `python3 -m http.server`
+
+8. Navigate to build/playground/index.html
+9. The visualizer is now loaded and rendering three visualizers: Single Residue (left), Mutational (center) and Configurational (right).
