@@ -36,9 +36,9 @@ python3 parse_contact_maps.py FrustraEvo_2023715141047268466/Data/1AYI_A.pdb Fru
 
 3. The following files will be created
    
-    * ./src/apps/playground/index.ts
-    * ./src/apps/playground/index.html
-    * ./webpack.config.common.js
+    * molstar/src/apps/playground/index.ts
+    * molstar/src/apps/playground/index.html
+    * molstar/webpack.config.common.js
   
 4. Navigate to the molstar/ directory and run the webpack
 
