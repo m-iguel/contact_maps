@@ -15,10 +15,10 @@ Molstar visualizers to render the Single Residue, Configurational and Mutational
 
 Optionally, you can remove the following files and repostitory, since we will be creating them afterwards:
    
-     ./src/apps/playground/index.ts
-     ./src/apps/playground/index.html
-     ./webpack.config.common.js
-     ./build/
+     molstar/src/apps/playground/index.ts
+     molstar/src/apps/playground/index.html
+     molstar/webpack.config.common.js
+     molstar/build/
 
 
 3. Run the script with the following arguments:
