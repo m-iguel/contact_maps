@@ -14,11 +14,12 @@ Molstar visualizers to render the Single Residue, Configurational and Mutational
 `git clone https://github.com/m-iguel/contact_maps.git`
 
 Optionally, you can remove the following files and repostitory, since we will be creating them afterwards:
+   
+     ./src/apps/playground/index.ts
+     ./src/apps/playground/index.html
+     ./webpack-config-common.js
+     ./build/
 
-    * ./src/apps/playground/index.ts
-    * ./src/apps/playground/index.html
-    * ./webpack-config-common.js
-    * ./build/
 
 3. Run the script with the following arguments:
 
@@ -38,8 +39,10 @@ python3 parse_contact_maps.py FrustraEvo_2023715141047268466/Data/1AYI_A.pdb Fru
     * ./src/apps/playground/index.ts
     * ./src/apps/playground/index.html
     * ./webpack-config-common.js
+  
+4. Navigate to the molstar/ directory and run the webpack
 
-4. Run the webpack
+   `cd molstar/`
    
    `npm run watch-playground`
 
