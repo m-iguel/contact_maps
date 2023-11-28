@@ -34,13 +34,13 @@ From your root directory:
 python3 parse_contact_maps.py FrustraEvo_2023715141047268466/Data/1AYI_A.pdb FrustraEvo_2023715141047268466/OutPutFiles/IC_SingleRes_2023715141047268466 FrustraEvo_2023715141047268466/OutPutFiles/IC_Mut_2023715141047268466 FrustraEvo_2023715141047268466/OutPutFiles/IC_Conf_2023715141047268466 FrustraEvo_2023715141047268466/Data/1AYI_A.done/VisualizationScrips/1AYI_A.pdb
 ```
 
-3. The following files will be created
+4. The following files will be created
    
     * molstar/src/apps/playground/index.ts
     * molstar/src/apps/playground/index.html
     * molstar/webpack.config.common.js
   
-4. Navigate to the molstar/ directory and run the webpack
+5. Navigate to the molstar/ directory and run the webpack
 
    `cd molstar/`
    
