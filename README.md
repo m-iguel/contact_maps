@@ -5,7 +5,7 @@ Molstar visualizers to render the Single Residue, Configurational and Mutational
 
 ### Requirements:
 
-+ Node Package Manager (npm) (manager for JavaScript software packages).
++ Node Package Manager (npm >= 14.0.0) (manager for JavaScript software packages).
 
 ### Instructions to run the webpack in a local server:
 
